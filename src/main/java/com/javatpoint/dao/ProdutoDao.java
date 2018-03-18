@@ -77,7 +77,7 @@ public static Produto getRecordById(int id){
 	Produto u=null;
 	try{
 		Connection con=getConnection();
-		PreparedStatement ps=con.prepareStatement("select * from produtos where id=?");
+		PreparedStatement ps=con.prepareStatement("select * from produto where id=?");
 		ps.setInt(1,id);
 		ResultSet rs=ps.executeQuery();
 		while(rs.next()){
