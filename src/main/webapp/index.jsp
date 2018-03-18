@@ -5,7 +5,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <link href="css/estilo.css" rel="stylesheet">
-<title>Genrenciamento de Produtos</title>
+<title>Gerenciamento de Produtos</title>
 </head>
 <body>
 

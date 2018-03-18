@@ -1,19 +1,25 @@
+
 <head>
-    <meta charset="UTF-8">
-    <link href="css/estiloform.css" rel="stylesheet">
-    <title>Adicionar</title>
+  <meta charset="UTF-8">
+  <link href="css/estiloform.css" rel="stylesheet">
 </head>
-    <h1>Adicionar novo produto</h1>
+<body>
 
-<a href="consultaProduto.jsp">Visualizar todos os produtos</a><br/>
+<h1>Adicionar novo Produto</h1>
+<h2><a href="consultaProduto.jsp">Clique aqui para visualizar todos os produtos!</a></h2><br/>
 <form action="addProduto.jsp" method="post">
-
-<table>
+<div>
+    <table>
     <tr><td>Nome:</td><td><input type="text" name="nome"/></td></tr>
     <tr><td>Descrição:</td><td><input type="text" name="descricao"/></td></tr>
     <tr><td>Preco Compra:</td><td><input type="text" name="precoCompra"/></td></tr>
     <tr><td>Preco Venda:</td><td><input type="text" name="precoVenda"/></td></tr>
-    <tr><td>Quantidade:</td><td><input type="text" name="quantidade"/></td></tr>
+    <tr><td>Quantidade:</td><td><input type="text" name="precoVenda"/></td></tr><br>
     <tr><td colspan="2"><input type="submit" value="Adicionar"/></td></tr>
 </table>
+    </div>
+    
+    
+    
 </form>
+</body>
