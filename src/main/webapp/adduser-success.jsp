@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <title>Add User Success</title>
 </head>
 <body>
 
-<p>Record successfully saved!</p>
+<p>EFETUADO COM SUCESSO!</p>
 <jsp:include page="form.html"></jsp:include>
 
 </body>

@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Add User Success</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 </head>
 <body>
 
-<p>Sorry, an error occured!</p>
+<p>Desculpe, erro ao inserir!</p>
 <jsp:include page="form.html"></jsp:include>
 
 </body>
