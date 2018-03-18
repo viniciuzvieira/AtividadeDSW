@@ -7,7 +7,7 @@
 <body>
 
 <p>Record successfully saved!</p>
-<jsp:include page="userform.html"></jsp:include>
+<jsp:include page="form.html"></jsp:include>
 
 </body>
 </html>

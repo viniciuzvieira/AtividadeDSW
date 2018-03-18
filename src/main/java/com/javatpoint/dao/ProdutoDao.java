@@ -31,7 +31,7 @@ public static int update(Produto u){
 	int status=0;
 	try{
 		Connection con=getConnection();
-		PreparedStatement ps=con.prepareStatement("update register set nome=?,descricao=?,precoCompra=?,precoVenda=?,quantidade=? where id=?");
+		PreparedStatement ps=con.prepareStatement("update produto set nome=?,descricao=?,precoCompra=?,precoVenda=?,quantidade=? where id=?");
 		ps.setString(1,u.getNome());
 		ps.setString(2,u.getDescricao());
 		ps.setDouble(3,u.getPrecoCompra());
@@ -46,7 +46,7 @@ public static int delete(Produto u){
 	int status=0;
 	try{
 		Connection con=getConnection();
-		PreparedStatement ps=con.prepareStatement("delete from register where id=?");
+		PreparedStatement ps=con.prepareStatement("delete from produto where id=?");
 		ps.setInt(1,u.getId());
 		status=ps.executeUpdate();
 	}catch(Exception e){System.out.println(e);}
