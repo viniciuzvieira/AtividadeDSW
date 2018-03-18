@@ -58,7 +58,7 @@ public static List<Produto> pegarProdutos(){
 	
 	try{
 		Connection con=getConnection();
-		PreparedStatement ps=con.prepareStatement("select * from produtos");
+		PreparedStatement ps=con.prepareStatement("select * from produto");
 		ResultSet rs=ps.executeQuery();
 		while(rs.next()){
 			Produto u=new Produto();
