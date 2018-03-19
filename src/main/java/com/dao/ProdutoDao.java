@@ -1,9 +1,9 @@
-package com.javatpoint.dao;
+package com.dao;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.javatpoint.bean.Produto;
+import com.bean.Produto;
 public class ProdutoDao {
 public static Connection getConnection(){
 	Connection con=null;

@@ -8,7 +8,7 @@
 </head>
 <body>
 
-<%@page import="com.javatpoint.dao.ProdutoDao,com.javatpoint.bean.*,java.util.*"%>
+<%@page import="com.dao.ProdutoDao,com.bean.*,java.util.*"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 
 <h1>Lista de Produtos</h1>

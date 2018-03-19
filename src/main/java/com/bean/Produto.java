@@ -1,4 +1,4 @@
-package com.javatpoint.bean;
+package com.bean;
 
 public class Produto {
 

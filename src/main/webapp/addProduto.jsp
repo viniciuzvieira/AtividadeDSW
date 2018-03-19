@@ -1,6 +1,6 @@
-<%@page import="com.javatpoint.dao.ProdutoDao"%>
+<%@page import="com.dao.ProdutoDao"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
-<jsp:useBean id="u" class="com.javatpoint.bean.Produto"></jsp:useBean>
+<jsp:useBean id="u" class="com.bean.Produto"></jsp:useBean>
 <jsp:setProperty property="*" name="u"/>
 
 <%
