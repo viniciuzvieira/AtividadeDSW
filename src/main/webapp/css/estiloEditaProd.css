@@ -1,0 +1,46 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 18/03/2018, 22:14:33
+    Author     : NATALIA
+*/
+
+h1{
+    font-family: "Lucida Sans Unicode";
+    text-align: center;
+    width: 100%;
+    height:50px;
+    top:0;
+    left:0;
+    color: black;
+    background-color: #F5F5F5;
+    border: 1px #d43f3a inset;
+    
+}
+
+table{
+    font-size: 25px;
+    font-family: "Lucida Sans Unicode";
+}
+
+form{
+    background-color: #FFDAB9;
+    font-weight: bold;
+    font-family: "Lucida Sans Unicode";
+    border: 1px #d43f3a inset;
+    width: 450px;
+    margin: 0 auto;
+}
+
+body{
+    background: url('https://abecedarioeningles.info/wp-content/uploads/2017/10/ropa-en-ingles.png');
+}
+
+input{
+    color: red;
+    border: 2px #d43f3a solid;
+    font-size: 20px;
+}
